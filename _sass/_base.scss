@@ -306,15 +306,6 @@ nav {
   }
 }
 
-/*
-   Global animation transition
-   ========================================================================== */
-
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
-  -webkit-transition: $global-transition;
-  transition: $global-transition;
-}
-<style type="text/css">
 ::selection {
     color:#fff;
     background-color: #bdbdbd ;
@@ -329,4 +320,13 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     color:#fff;
     background-color: #bdbdbd ;
 }
-</style>
+
+/*
+   Global animation transition
+   ========================================================================== */
+
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+}
+
