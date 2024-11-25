@@ -28,7 +28,10 @@ body { margin: 0; }
   color: #fff;
   background: #bdbdbd;
 }
-
+::-webkit-selection {
+    color:#fff;
+    background-color: #bdbdbd;
+}
 ::selection {
   color: #fff;
   background: #bdbdbd;
