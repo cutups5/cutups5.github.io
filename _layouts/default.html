@@ -13,18 +13,25 @@ layout: compress
         ::selection {
     color:#fff;
     background-color: #8EE5EE ;
-}
+    }
 
         ::-moz-selection {
     color:#fff;
     background-color: #8EE5EE ;
-}
+    }
 
         ::-webkit-selection {
     color:#fff;
     background-color: #8EE5EE ;
-}
+    }
     </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('a').forEach(function(link) {
+                link.setAttribute('target', '_blank');
+            });
+        });
+    </script>
   </head>
 
   <body>
