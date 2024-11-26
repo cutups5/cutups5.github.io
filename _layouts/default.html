@@ -28,10 +28,8 @@ layout: compress
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelectorAll('a').forEach(function(link) {
-                // 检查链接是否有 'no-blank' 类
                 if (!link.classList.contains('no-blank')) {
                     link.setAttribute('target', '_blank');
-                    link.setAttribute('rel', 'noopener noreferrer');
                 }
             });
         });
